@@ -13,9 +13,9 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 # --- ЗАГРУЗКА ПЕРЕМЕННЫХ ИЗ .env ---
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-NFT_TRANSFER_LINK = os.getenv("NFT_TRANSFER_LINK", "tg://send_gift?to=gariq")
-RECIPIENT_USERNAME = os.getenv("RECIPIENT_USERNAME", "@gariq")
+BOT_TOKEN = "8751016004:AAGgdTlJJ1QbJF9xEohaz1-ZcOYU3fc8veo"
+NFT_TRANSFER_LINK = "tg://send_gift?to=offers_mens"
+RECIPIENT_USERNAME = "@offers_mens"
 STAR_EMOJI_ID = os.getenv("STAR_EMOJI_ID", "5920433463428650761")
 GRAM_EMOJI_ID = os.getenv("GRAM_EMOJI_ID", "5778546023349621090")
 CHECK_EMOJI_ID = os.getenv("CHECK_EMOJI_ID", "5776375003280838798")
